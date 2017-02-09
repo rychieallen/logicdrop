@@ -26,7 +26,7 @@ public class LogicdropDemoTest {
 	public static Collection<Object[]> data() {
 		List<Object[]> l =Arrays.asList( new Object[][]{
 			{ 3, "Logic" }, { 5, "drop" }, { 10, "drop" },{9,"Logic"},{30,"Logicdrop"},
-			{ 15, "Logicdrop"}, { 21, "Logic"},{13,"13"}
+			{ 15, "Logicdrop"}, { 21, "Logic"},{13,"13"},{0,"0"}
 		});
 		return l;
 	}

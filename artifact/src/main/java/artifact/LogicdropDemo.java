@@ -20,7 +20,9 @@ public class LogicdropDemo {
 	 * @return
 	 */
 	public String fun(int number) {
-		if (number % 15 == 0 ){
+		if (number == 0){
+			return  String.valueOf(number) ;
+		}else if (number % 15 == 0 ){
 			return "Logicdrop";
 		}else if (number % 3 == 0) {
 			return "Logic";
